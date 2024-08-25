@@ -1,0 +1,15 @@
+html {
+  height: 30%;
+  width: 30%;
+  background-color: lightcyan;
+  color: yellow;
+}
+
+button {
+  background-color: lightblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

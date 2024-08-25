@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+button {
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  width: 30%;
+  height: 50px;
+  font-size: 30px;
+}
