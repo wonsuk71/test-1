@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html>
-  <link rel="stylesheet" href="style.css" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <script src="./main.js"></script>
+    <title>Todo</title>
+  </head>
   <body>
-    <h2>JavaScript appendChild() Method</h2>
-
-    <button onclick="append()">Append</button>
-
-    <ul id="languages">
-      <li>Python</li>
-      <li>Java</li>
-      <li>Data Structure</li>
-    </ul>
-    <script src="script.js"></script>
+    <div class="main-screen">
+      <input type="text" class="todo-input" placeholder="Add Todo" />
+      <div class="todo-button">Add</div>
+      <div class="todo-list"></div>
+    </div>
   </body>
 </html>
